@@ -1,0 +1,343 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "react-phone-input-2/lib/style.css";
+@import url(./var.css);
+@import url(./sidebar.css);
+
+body {
+  font-family: "Inter" !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #28b469;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+ul {
+  padding-left: 0px !important;
+  margin-bottom: 0px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px !important;
+}
+
+.custome-input-height input {
+  height: 42px;
+}
+
+body {
+  background-color: #f1f1f4;
+}
+
+label {
+  font-size: 15px !important;
+  font-family: "Inter" !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px;
+  line-height: normal !important;
+}
+
+.common-inputs input,
+.common-inputs select {
+  height: 45px !important;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  color: #4b5675;
+  font-size: 14px;
+  padding-left: 20px;
+  box-shadow: inherit;
+  padding-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.common-inputs select {
+  cursor: pointer;
+}
+
+.react-tel-input input {
+  height: 45px !important;
+  border-radius: 5px !important;
+  background-color: #f9f9f9 !important;
+  border-color: #f9f9f9 !important;
+  color: #4b5675 !important;
+  font-size: 14px !important;
+  box-shadow: inherit !important;
+  padding-right: 20px !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2) !important;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 12px;
+}
+
+.common-inputs input:focus-visible,
+.common-inputs select:focus-visible,
+.common-inputs textarea:focus-visible {
+  outline: none !important;
+}
+
+.common-inputs textarea {
+  height: 100px !important;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  color: #4b5675;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-shadow: inherit;
+  padding-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.common-inputs input[type="checkbox"] {
+  height: auto !important;
+}
+
+.checkbox-input label {
+  margin-bottom: 0px;
+}
+
+.checkbox-input {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.checkbox-input div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox-input input[type="checkbox"]:checked {
+  background-color: #28b469 !important;
+}
+
+.fileselect-input input {
+  padding-top: 9px;
+}
+
+.search-location-input .css-1fdsijx-ValueContainer,
+.search-location-input .css-1fdsijx-ValueContainer {
+  height: 45px;
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  color: #4b5675;
+  font-size: 14px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-location-input .css-1hb7zxy-IndicatorsContainer {
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.search-location-input .css-13cymwt-control {
+  border-radius: 5px;
+  border-color: #f9f9f9 !important;
+}
+
+.search-location-input .css-t3ipsp-control:hover {
+  border-color: #f9f9f9 !important;
+  box-shadow: none !important;
+}
+
+/* .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
+  display: none;
+} */
+.chip-active {
+  background-color: #1e7e34 !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.chip-inactive {
+  background-color: #bd2130 !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.pagination.common-inputs select {
+  height: 35px !important;
+  width: 100%;
+  max-width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.action-btn button {
+  padding: 0px !important;
+}
+
+table tbody td a {
+  display: block;
+  width: 200px;
+  max-width: 200px;
+  word-break: break-all;
+  color: #000 !important;
+}
+
+.table-delet-icon {
+  background-color: #dc2626 !important;
+  transition: 0.3s;
+}
+
+.table-delet-icon:hover {
+  background-color: #dc2626 !important;
+  transform: translateY(-3px);
+}
+
+.table-edit-btn button {
+  transition: 0.3s;
+}
+
+.table-edit-btn button:hover {
+  transform: translateY(-3px);
+}
+
+.table-delet-icon svg path:last-of-type {
+  fill: #fff !important;
+}
+
+.tax-remove-div-btn {
+  padding: 0px !important;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #dc2626 !important;
+  color: #fff;
+}
+
+/* ---sell-development---- */
+.sell-left-search-wrp input {
+  padding-left: 35px;
+  padding-right: 30px;
+}
+
+.sell-right-search-wrp input {
+  padding-left: 35px;
+}
+
+.qty-btn input {
+  width: 30px !important;
+  height: 30px !important;
+  padding-left: 3px;
+  padding-right: 0px;
+}
+.dis-btn input {
+  padding-left: 10px;
+  max-width: 80px;
+  height: 35px !important;
+}
+
+.hide.sidebar-toggle-btn span::after {
+  transform: rotate(-45deg);
+  bottom: 9px;
+}
+.disabled\:bg-\[\#aba9a9\]:disabled {
+  border: 1px solid rgb(171 169 169);
+  opacity: 0.5;
+}
+
+/* ---nav-- */
+/*---nav--*/
+
+.admin-sidebar nav {
+  display: block;
+}
+.admin-sidebar nav ul {
+  display: block;
+  padding-left: 0px;
+}
+.added-produt-info:hover .delet-added-product-btn {
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .common-inputs input,
+  .common-inputs select,
+  .common-inputs textarea {
+    padding-left: 10px;
+  }
+
+  .sell-left-search-wrp input {
+    padding-left: 35px;
+  }
+
+  .sell-right-search-wrp input {
+    padding-left: 35px;
+  }
+
+  .qty-btn input {
+    padding-left: 3px;
+    padding-right: 0px;
+  }
+
+  .dis-btn input {
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  label {
+    font-size: 14px !important;
+  }
+
+  .tax-remove-div-btn {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .edit-tax-wrp .common-inputs {
+    width: 100%;
+  }
+}

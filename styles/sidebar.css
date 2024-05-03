@@ -1,0 +1,46 @@
+.sidebar-close-btn svg {
+  width: 100%;
+  max-width: 25px;
+  height: 25px;
+  fill: #28b469;
+  perspective: none;
+}
+.sidebar-close-btn button {
+  width: 100%;
+  max-width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border: 1px solid #28b469;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.sidebarNav .sidebar-text span {
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Inter";
+}
+
+.sidebar-close nav button span {
+  display: none;
+}
+.sidebar-close nav button {
+  justify-content: center;
+}
+.sidebar-close nav button svg {
+  margin-right: 0px !important;
+}
+
+.hide.sidebar-toggle-btn span {
+  width: 0;
+  height: 0;
+}
+.hide.sidebar-toggle-btn span::before {
+  transform: rotate(45deg);
+  top: 9px;
+}
+.hide.sidebar-toggle-btn span::after {
+  transform: rotate(-45deg);
+  bottom: 9px;
+}

@@ -1,0 +1,8 @@
+{
+  "category_name_label": "Category Name :",
+  "category_name_placeholder": "Enter Category Name",
+  "category_name_error": "Please enter category name",
+  "category_image_label": "Image :",
+  "category_image_placeholder": "Select Category image",
+  "category_image_error": "Please select category image"
+}

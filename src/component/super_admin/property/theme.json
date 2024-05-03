@@ -1,0 +1,20 @@
+{
+  "theme_name_label": "Theme name",
+  "theme_name_placeholder": "Enter Theme name",
+  "theme_name_error": "Please enter theme name",
+  "theme_key_label": "Theme Key",
+  "theme_key_placeholder": "Enter Theme Key",
+  "theme_key_error": "Please enter key",
+  "preview_url_label": "Preview Url",
+  "preview_url_placeholder": "Enter Preview Url",
+  "preview_url_error": "Please enter preview url",
+  "image_label": "Theme Image",
+  "image_placeholder": "Select Theme Image",
+  "image_error": "Please select theme image",
+  "theme_detail_label": "Details",
+  "theme_detail_placeholder": "Enter Details",
+  "theme_detail_error": "Please enter theme details",
+  "save_button_label": "Save",
+  "update_button_label": "Update",
+  "cancel_button_label": "Cancel"
+}

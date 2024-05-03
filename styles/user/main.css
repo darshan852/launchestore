@@ -1,0 +1,12 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import url("./var.css");
+@import url("./common.css");
+@import url("./header.css");
+@import url("./home.css");
+@import url("./vendor.css");
+@import url("./footer.css");
+@import url("./login.css");
+@import url("./contactus.css");
+@import url("./product-listing.css");
+@import url("./product-detail.css");

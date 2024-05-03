@@ -1,0 +1,9 @@
+dist
+node_modules
+coverage
+.next
+build
+public
+config.json
+ckeditor5-custom-build
+ckeditor5-custom-build/build

@@ -1,0 +1,192 @@
+:root {
+  --light-green-bg: rgba(234, 247, 237, 0.5);
+  --light-white-bg: #f5f5f5;
+
+  --primary-color: #2bae4a;
+  --primary-box-shadow: 0px 20px 50px rgba(43, 174, 74, 0.15);
+  --secondary-color: #11405a;
+  --title-first-color: #222528;
+  --title-second-color: #2bae4a;
+  --title-underline-1: rgba(43, 174, 74, 0.1);
+  --title-underline-2: rgba(43, 174, 74, 1);
+  --common-btn-color: #11405a;
+  --common-btn-shadow: 0px 7px 20px rgba(17, 64, 90, 0.2);
+  --common-white: #fff;
+  --btn-hover-text: #11405a;
+  --btn-hover-shadow: 0px 3px 10px 1px rgba(17, 64, 90, 0.9);
+  --common-pera-color: #414549;
+
+  /* -----breadcrumb-color--- */
+  --breadcrumb-link-color: #222528;
+  --breadcrumb-active-link-color: #2bae4a;
+
+  /* -----header-color---- */
+  /* --header-bg-color: #ffffff; */
+  --header-icon-color-first: #222528;
+  /* --header-icon-color-second: #ffffff; */
+  /* --header-icon-round-color: #ebf3f8; */
+  /* --header-text-primary: #222528; */
+  /* --header-text-secondary: #535960; */
+  /* --header-text-white: #ffffff; */
+  /* --header-btn-color: #11405a; */
+
+  /* -----navigation-bar-color---- */
+  /* --nav-text-color: #fff; */
+  /* --nav-hover-color: #11405a; */
+
+  /* ------categorie-sec-color------ */
+  --categorie-wrapper-border: #ccd3db;
+  --categorie-wrapper-bg: #fff;
+  --categorie-wrapper-bg-hover: #2bae4a;
+  --categorie-wrapper-round: rgba(43, 174, 74, 0.1);
+  --categorie-wrapper-text: #222528;
+
+  /* -------card-color------ */
+  /* --card-bg-color: #fff; */
+  /* --card-border-color: #d9e2ed; */
+  /* --card-text-primary: #2bae4a; */
+  /* --card-text-secondary: #222528; */
+  /* --card-number-primary: #11405a; */
+  /* --card-number-secondary: #414549; */
+  /* --card-btn-bg: #11405a; */
+  /* --card-img-bg: #edf5fb; */
+
+  /* ----------footer-color------ */
+  /* --footer-text-primary: #222528; */
+  /* --footer-text-secondary: #414549; */
+  /* --footer-bg-color: #f4fbf6; */
+
+  /* ------------lisiting-colors---------   */
+  /* --lising-banner-title-1: #222528; */
+  /* --lising-banner-title-2: #2bae4a; */
+  /* --listing-text-1: #222528; */
+  --list-select-bg: #f5f5f5;
+  /* --list-select-border: #d9e2ed; */
+  --filter-icon-color-1: #2bae4a;
+  /* --list-icon-color-2: #222528; */
+  /* --listing-sub-ctg-bg: #f2f5f3; */
+  /* --listing-sub-ctg-border: #d9e2ed; */
+  /* --listing-sub-ctg-text: #414549; */
+  /* --listing-sub-ctg-hover: #2bae4a; */
+
+  /* ------------lisiting-2-colors---------   */
+  /* --listing-2-ctg-bg: #ffffff; */
+  /* --listing-2-ctg-border: #d9e2ed; */
+  /* --listing-2-header-bg: #d9e2ed; */
+  /* --listing-2-header-text: #222528; */
+  /* --listing-2-normal-text: #414549; */
+
+  /* --------dropdown-cart------ */
+  --drop-cart-text-1: #222528;
+  --drop-cart-text-2: #414549;
+  --drop-cart-number: #11405a;
+  --drop-cart-bottom-border: #d0d6d2;
+
+  /* -----product-detalis-color---- */
+  --product-details-text-1: #222528;
+  --product-details-text-2: #595d62;
+  --product-details-text-3: #2bae4a;
+  --product-details-text-4: #11405a;
+  --product-details-image-bg: #edf5fb;
+  --product-details-btn-1: #2bae4a;
+  --product-details-btn-2: #11405a;
+
+  /* -------- shop-cart-color------- */
+
+  --cart-thead-bg: #f2f5f3;
+  --cart-thead-text: #222528;
+  --cart-td-text-1: #222528;
+  --cart-td-text-2: #414549;
+  --cart-td-text-3: #11405a;
+  --cart-counter-border: #d9e2ed;
+  --cart-counter-bg: #fff;
+  --cart-icon: #2bae4a;
+  --proceed-checkout-btn-bg: #2bae4a;
+  --proceed-checkout-btn-text: #fff;
+
+  /* ----------------checkout-process-color----- */
+  --accordian-head-bg: #f2f5f3;
+  --accordian-bg: #fff;
+  --accordian-border: #d9e2ed;
+  --accordian-head-text: #222528;
+  --accordian-icon: #222528;
+  --accordian-content-text-1: #222528;
+  --accordian-content-text-2: #414549;
+  --accordian-star: #ff1d1d;
+
+  /* -------modal-popup-color---- */
+  --modal-bg: rgba(17, 64, 90, 0.9);
+  --modal-text-1: #2bae4a;
+  --modal-text-2: #222528;
+  --modal-text-3: #414549;
+  --continue-btn-bg: #2bae4a;
+  --continue-btn-text: #fff;
+  --close-btn: #11405a;
+
+  /* -----------about-us-css-------- */
+  --peragraph-color: #414549;
+  --client-wrapper-text-2: #222528;
+  --client-wrapper-text-3: #2bae4a;
+  --client-wrapper-bg: #ffffff;
+  --client-wrapper-border: #d9e2ed;
+  --client-wrapper-icon: #d9e2ed;
+
+  /* ------myaccount-css--- */
+  --myaccoutn-tab-bg: #f2f5f3;
+  --myaccoutn-tab-border: #d9e2ed;
+  --myaccoutn-tab-text: #414549;
+  --myaccoutn-tab-active-bg: #11405a;
+  --myaccoutn-tab-label-text: #222528;
+  --myaccoutn-tab-input-bg: #ffffff;
+  --myaccoutn-tab-input-border: #c5ccd4;
+
+  /* login-page-color--- */
+  /* --login-wrapper-bg: #ffffff; */
+  /* --login-wrapper-border: #d9e2ed; */
+  /* --login-wrapper-label: #222528; */
+  /* --login-wrapper-placholder: #414549; */
+  /* --login-wrapper-input-bg: #ffffff; */
+  /* --login-wrapper-input-border: #c5ccd4; */
+  /* --login-btn-bg: #2bae4a; */
+  /* --login-btn-text: #fff; */
+  /* --forgot-text: #2bae4a; */
+
+  /* -----contact-us-css------- */
+  /* --left-contact-wrapper-bg: #ffffff; */
+  /* --left-contact-wrapper-border: #d9e2ed; */
+  /* --left-contact-wrapper-label: #222528; */
+  /* --left-contact-wrapper-input-bg: #ffffff; */
+  /* --left-contact-wrapper-input-border: #c5ccd4; */
+  /* --left-contact-submit-btn-bg: #2bae4a; */
+  /* --left-contact-submit-btn-text: #fff; */
+
+  /* --right-contact-wrapper-bg: #11405a; */
+  /* --right-contact-wrapper-border: #d9e2ed; */
+  /* --right-contact-icon-round: #2bae4a; */
+  /* --right-contact-wrapper-text: #fff; */
+
+  --primary-color: #2bae4a;
+  --secondary-color: #11405a;
+  --dark-black: #222528;
+  --lightgreen-bg: rgba(43, 174, 74, 0.1);
+  --common-white: #fff;
+  --pera-color: #414549;
+  --primary-border: #d9e2ed;
+  --secondary-border: #c5ccd4;
+  --card-img-bg: #edf5fb;
+  --light-white-bg: #f5f5f5;
+  --light-gray-bg: #f2f5f3;
+  --light-green-bg: rgba(234, 247, 237, 0.5);
+  --primary-box-shadow: 0px 20px 50px rgba(43, 174, 74, 0.15);
+  --title-underline-2: rgba(43, 174, 74, 1);
+  --common-btn-shadow: 0px 7px 20px rgba(17, 64, 90, 0.2);
+  --btn-hover-shadow: 0px 3px 10px 1px rgba(17, 64, 90, 0.9);
+  --header-icon-round-color: #ebf3f8;
+  --header-text-secondary: #535960;
+  --categorie-wrapper-border: #ccd3db;
+  --footer-bg-color: #f4fbf6;
+  --drop-cart-bottom-border: #d9e2ed;
+  --product-details-text-2: #595d62;
+  --accordian-star: #ff1d1d;
+  --modal-bg: rgba(17, 64, 90, 0.9);
+}

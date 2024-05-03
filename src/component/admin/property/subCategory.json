@@ -1,0 +1,8 @@
+{
+  "category_id_label": "Category *",
+  "category_id_placeholder": "Select Category",
+  "category_id_error": "Please select category",
+  "name_label": "Subcategory Name * ",
+  "name_placeholder": "Enter Subcategory Name ",
+  "name_error": "Please enter subcategory name"
+}
